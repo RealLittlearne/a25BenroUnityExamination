@@ -177,4 +177,9 @@ public class PlatformerMovement : MonoBehaviour
             jumpInput = false;
         }
     }
+
+    public void Respawn()
+    {
+        rb.position = Vector2.zero;
+    }
 }
