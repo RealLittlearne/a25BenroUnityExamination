@@ -181,5 +181,6 @@ public class PlatformerMovement : MonoBehaviour
     public void Respawn()
     {
         rb.position = Vector2.zero;
+        rb.linearVelocity = Vector2.zero;
     }
 }
