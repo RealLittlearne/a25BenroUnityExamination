@@ -346,6 +346,9 @@ MonoBehaviour:
   maxSpeed: 10
   jumpForce: 10
   spriteRenderer: {fileID: 8245173076747051446}
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 1
   animator: {fileID: 473146954027648521}
 --- !u!95 &473146954027648521
 Animator:
