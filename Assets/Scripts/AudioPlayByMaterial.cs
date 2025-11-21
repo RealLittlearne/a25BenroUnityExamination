@@ -9,8 +9,7 @@ public class AudioPlayByMaterial : MonoBehaviour
     public enum CurrentMaterial
     {
         Grass,
-        Gravel,
-        Metal
+        Snow,
     }
     
     [System.Serializable]
@@ -36,7 +35,7 @@ public class AudioPlayByMaterial : MonoBehaviour
     }
     
     // Randomize which AudioClip will be played in the specified material-group
-    public void PlayAudioClip(int index)
+    private void PlayAudioClip(int index)
     {
         Debug.Log("Play Audio");
         audioSource.clip = audioSoundType[index].audioClip[Random.Range(0, audioSoundType[index].audioClip.Length)];
