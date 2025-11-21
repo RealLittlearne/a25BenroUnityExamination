@@ -496,10 +496,10 @@ MonoBehaviour:
   currentMaterial: 0
   audioSoundType:
   - audioClip:
-    - {fileID: 8300000, guid: 5e42177fa45578348a52e74581adebc9, type: 3}
-    - {fileID: 8300000, guid: e97de2cae68100145acc8ab8010f87df, type: 3}
-    - {fileID: 8300000, guid: ec95e6dc1b976c747998c237bcedcbaf, type: 3}
-    - {fileID: 8300000, guid: d6e1cba728f464046a0e672ade33a5ff, type: 3}
+    - {fileID: 8300000, guid: 9d0da652ed458f34284538c2648101d9, type: 3}
+    - {fileID: 8300000, guid: 224f70cb8e1e86141ae4a5ad9a92ab28, type: 3}
+    - {fileID: 8300000, guid: cdbe3fd8ded7b0747a666fd92b1c4f80, type: 3}
+    - {fileID: 8300000, guid: 68f652d0e618582418718f667cc87daa, type: 3}
   - audioClip:
     - {fileID: 8300000, guid: 437c64055d1d94d47b37ec2e72c54070, type: 3}
     - {fileID: 8300000, guid: 4a61df3521ae1ca4e8f8ae0025cb7f03, type: 3}
