@@ -194,7 +194,7 @@ GameObject:
   - component: {fileID: 76862655}
   - component: {fileID: 76862658}
   - component: {fileID: 76862659}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Level2Trigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
