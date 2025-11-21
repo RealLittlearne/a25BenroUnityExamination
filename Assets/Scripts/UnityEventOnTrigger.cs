@@ -22,7 +22,7 @@ public class UnityEventOnTrigger : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag(tagToActivate))
+        if (other.CompareTag(tagToActivate) && !other.isTrigger)
         {
             onTriggerEnter.Invoke();
             Debug.Log("Unity Event Trigger (enter) activated on " + gameObject);
@@ -31,7 +31,7 @@ public class UnityEventOnTrigger : MonoBehaviour
     
     private void OnTriggerExit2D(Collider2D other)
     {
-        if (other.CompareTag(tagToActivate))
+        if (other.CompareTag(tagToActivate)&& !other.isTrigger)
         {
             onTriggerExit.Invoke();
             Debug.Log("Unity Event Trigger (exit) activated on " + gameObject);
@@ -40,7 +40,7 @@ public class UnityEventOnTrigger : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag(tagToActivate))
+        if (other.CompareTag(tagToActivate)&& !other.isTrigger)
         {
             onTriggerEnter.Invoke();
             Debug.Log("Unity Event Trigger (enter) activated on " + gameObject);
@@ -49,7 +49,7 @@ public class UnityEventOnTrigger : MonoBehaviour
     
     private void OnTriggerExit(Collider other)
     {
-        if (other.CompareTag(tagToActivate))
+        if (other.CompareTag(tagToActivate)&& !other.isTrigger)
         {
             onTriggerExit.Invoke();
             Debug.Log("Unity Event Trigger (exit) activated on " + gameObject);
