@@ -22776,14 +22776,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 101895808767363997, guid: 7a027eabdb9839542bc3d9757cfce9d8, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 527753515}
-    - target: {fileID: 101895808767363997, guid: 7a027eabdb9839542bc3d9757cfce9d8, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Respawn
-      objectReference: {fileID: 0}
     - target: {fileID: 756190478066173500, guid: 7a027eabdb9839542bc3d9757cfce9d8, type: 3}
       propertyPath: m_text
       value: Level 2
