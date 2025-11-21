@@ -405,7 +405,7 @@ GameObject:
   - component: {fileID: 124400605}
   - component: {fileID: 124400604}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: TextInWorldCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
